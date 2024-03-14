@@ -24,6 +24,6 @@ button.addEventListener("click", function () {
 function roll(num) {
     let rNumber = Math.floor(Math.random() * num) + 1;
     let n = 9855;
-    let entity = `&#${n + rNumber};`;
-    return entity;
+    let char = `&#${n + rNumber};`;
+    return char;
 }
